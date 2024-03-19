@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" type="text/css" href="{%static 'css/land.css'%}">
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Garden Of Edenn</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="{% url 'store' %}">STORE</a></li>
+                    <li><a href="{% url 'about' %}">ABOUT</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="content">
+            <h1><strong>Vendors E-commerce Store</strong></h1>
+            <p class="par">Welcome to Garden of Edernn: your curated marketplace for artisanal wonders.<br> Explore a diverse range of handcrafted treasures, from gourmet foods to stylish accessories.<br>Each item tells a story of craftsmanship and passion 
+                <br>  Start your journey today and discover the magic of artisanal creations for every aspect of your life.
+    
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

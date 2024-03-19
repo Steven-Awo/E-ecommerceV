@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" type="text/css" href="{%static 'css/land.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Garden Of Edenn</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="{% url 'landingpage' %}">HOME</a></li>
+                    <li><a href="{% url 'store' %}">STORE</a></li>
+                    <li><a href="{% url 'about' %}">ABOUT</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="content">
+            <h1><strong>Vendors E-commerce Store</strong></h1>
+            <p class="par">Welcome to Garden of Edernn, where creativity blooms and artisans shine. Founded by designers<br>Rotimi Olakunle Awomodu and Martins Okwuaku, our platform is a vibrant hub for vendors to showcase <br>their unique creations to customers worldwide.</p>
+            <p class="par">Our vision is to provide a platform where artisans can thrive, showcasing their craftsmanship <br>to a global audience. From stylish accessories to gourmet foods, we celebrate the diversity of <br>
+            talent within our community.</p>
+            <p class="par">Join our community and let's celebrate the beauty of handmade goods together!</p>
+        </div>
+
+        {% comment %} <div class="content">
+            <img src="rotimi.jpg" alt="Rotimi Olakunle Awomodu">
+            <p><strong>Rotimi Olakunle Awomodu</strong></p>
+            <img src="martins.jpg" alt="Martins Okwuaku">
+            <p><strong>Martins Okwuaku</strong></p>
+            <p>Designed by Rotimi Olakunle Awomodu & Martins Okwuaku</p>
+        </div> {% endcomment %}
+
+        <div class="container11">
+            <div class="box">
+                <img src="../images/rotimi.jpg" alt="Designer 1">
+                <h2><strong>Rotimi Olakunle Awomodu</strong></h2>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/rotimi-awomodu-b0b7b5a1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                
+                    <a href="https://github.com/Steven-Awo" target="_blank"><i class="fab fa-github"></i></a>
+                
+                    <a href="https://twitter.com/Dark9ite166843" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../images/martins.jpg" alt="Designer 1">
+                <h2><strong>Martins Okwuaku</strong></h2>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/martins-okwuaku-787214269" target="_blank"><i class="fab fa-linkedin"></i></a>
+                
+                    <a href="https://github.com/martinsobinna" target="_blank"><i class="fab fa-github"></i></a>
+                
+                    <a href="https://twitter.com/martinsstanleyy" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        
+    
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
