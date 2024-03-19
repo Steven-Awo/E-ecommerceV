@@ -18,8 +18,8 @@
 
 .box {
     width: 200px; /* Adjust width as needed */
-    margin: 0 10px; /* Add spacing between boxes */
-    text-align: center;
+    margin: 150px 10px; /* Add spacing between boxes */
+    text-align: left;
 }
 
 .box img {
